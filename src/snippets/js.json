@@ -10,6 +10,6 @@
       "",
       "export default ${1:${TM_FILENAME_BASE}};"
     ],
-    "description": "Create react functional component"
+    "description": "Create ES6 Class"
   }
 }
