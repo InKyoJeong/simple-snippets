@@ -3,6 +3,12 @@
   "displayName": "simple-snippets",
   "description": "Simple snippets for js, react",
   "version": "0.0.1",
+  "icon": "ingg.png",
+  "publisher": "InKyoJeong",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/InKyoJeong/simple-snippets"
+  },
   "engines": {
     "vscode": "^1.75.0"
   },
@@ -18,6 +24,12 @@
       {
         "command": "simple-snippets.helloWorld",
         "title": "Hello World"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react-ts.json"
       }
     ]
   },
