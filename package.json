@@ -1,6 +1,6 @@
 {
-  "name": "simple-snippets",
-  "displayName": "simple-snippets",
+  "name": "simple-front-snippets",
+  "displayName": "simple-front-snippets",
   "description": "Simple snippets for js, react",
   "version": "0.1.0",
   "icon": "ingg.png",
