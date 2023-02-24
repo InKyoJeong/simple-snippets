@@ -2,7 +2,7 @@
   "name": "simple-front-snippets",
   "displayName": "simple-front-snippets",
   "description": "Simple snippets for js, react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icon": "ingg.png",
   "publisher": "InKyoJeong",
   "categories": [
@@ -13,7 +13,7 @@
     "url": "https://github.com/InKyoJeong/simple-snippets"
   },
   "engines": {
-    "vscode": "^1.75.0"
+    "vscode": "^1.75.1"
   },
   "activationEvents": [
     "onLanguage:javascript",

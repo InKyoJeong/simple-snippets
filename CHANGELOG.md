@@ -1,6 +1,6 @@
 # Change Log
 
-All notable changes to the "simple-snippets" extension will be documented in this file.
+All notable changes to the "simple-front-snippets" extension will be documented in this file.
 
 ## [1.0.0] - 2023-02-25
 
