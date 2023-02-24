@@ -46,7 +46,7 @@ export default Component;
 
 #### React Typescript
 
-- Create simple component with `interface`
+> Create simple component with `interface`
 
 <br>
 
@@ -55,9 +55,9 @@ export default Component;
 ```tsx
 interface ComponentProps {}
 
-function Component ({}: ComponentProps) => {
+function Component({}: ComponentProps) {
   return <div></div>;
-};
+}
 
 export default Component;
 ```
