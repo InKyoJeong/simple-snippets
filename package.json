@@ -16,7 +16,6 @@
     "vscode": "^1.75.0"
   },
   "activationEvents": [
-    "onCommand:simple-snippets.helloWorld",
     "onLanguage:javascript",
     "onLanguage:javascriptReact"
   ],
@@ -31,11 +30,19 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./snippets/react.json"
+        "path": "./src/snippets/react-js.json"
       },
       {
-        "language": "javascriptReact",
-        "path": "./snippets/react.json"
+        "language": "javascriptreact",
+        "path": "./src/snippets/react-js.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./src/snippets/react-ts.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/react-ts.json"
       }
     ]
   },

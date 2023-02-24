@@ -1,0 +1,32 @@
+{
+  "simpleFunctionalComponent": {
+    "key": "simpleFunctionalComponent",
+    "scope": ["js", "jsx"],
+    "prefix": "sfc",
+    "body": [
+      "function ${1:${TM_FILENAME_BASE}}() {",
+      "  return (",
+      "    <div></div>",
+      "  )",
+      "}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};"
+    ],
+    "description": "Create react functional component"
+  },
+  "simpleArrowFunctionComponent": {
+    "key": "simpleArrowFunctionComponent",
+    "scope": ["js", "jsx"],
+    "prefix": "safc",
+    "body": [
+      "const ${1:${TM_FILENAME_BASE}} = () => {",
+      "  return (",
+      "    <div></div>",
+      "  )",
+      "}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};"
+    ],
+    "description": "Create react arrow functional component"
+  }
+}
