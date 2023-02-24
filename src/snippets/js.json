@@ -1,0 +1,15 @@
+{
+  "simpleClass": {
+    "key": "simpleClass",
+    "scope": ["js"],
+    "prefix": "sc",
+    "body": [
+      "class ${1:${TM_FILENAME_BASE}} {",
+      "  constructor() {}",
+      "}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};"
+    ],
+    "description": "Create react functional component"
+  }
+}

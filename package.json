@@ -33,6 +33,10 @@
         "path": "./src/snippets/react-js.json"
       },
       {
+        "language": "javascript",
+        "path": "./src/snippets/js.json"
+      },
+      {
         "language": "javascriptreact",
         "path": "./src/snippets/react-js.json"
       },
