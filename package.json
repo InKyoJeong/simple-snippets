@@ -5,6 +5,9 @@
   "version": "0.0.1",
   "icon": "ingg.png",
   "publisher": "InKyoJeong",
+  "categories": [
+    "Snippets"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/InKyoJeong/simple-snippets"
@@ -12,11 +15,10 @@
   "engines": {
     "vscode": "^1.75.0"
   },
-  "categories": [
-    "Other"
-  ],
   "activationEvents": [
-    "onCommand:simple-snippets.helloWorld"
+    "onCommand:simple-snippets.helloWorld",
+    "onLanguage:javascript",
+    "onLanguage:javascriptReact"
   ],
   "main": "./dist/extension.js",
   "contributes": {
@@ -28,7 +30,11 @@
     ],
     "snippets": [
       {
-        "language": "react",
+        "language": "javascript",
+        "path": "./snippets/react.json"
+      },
+      {
+        "language": "javascriptReact",
         "path": "./snippets/react.json"
       }
     ]
