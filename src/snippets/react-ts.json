@@ -34,5 +34,26 @@
       "export default ${1:${TM_FILENAME_BASE}};"
     ],
     "description": "Create react typescript arrow functiona component with interface"
+  },
+  "simpleTypeReactNativeComponent": {
+    "key": "simpleTypeReactNativeComponent",
+    "scope": ["ts", "tsx"],
+    "prefix": "strnc",
+    "body": [
+      "import {StyleSheet, View} from 'react-native';",
+      "",
+      "interface ${1:${TM_FILENAME_BASE}}Props {",
+      "}",
+      "",
+      "const ${1:${TM_FILENAME_BASE}} = ({}: ${1:${TM_FILENAME_BASE}}Props) => {",
+      "  return (",
+      "    <View></View>",
+      "  )",
+      "}",
+      "",
+      "const styles = StyleSheet.create({});",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};"
+    ]
   }
 }

@@ -88,3 +88,25 @@ const Component = ({}: ComponentProps) => {
 
 export default Component;
 ```
+
+<br>
+
+### ReactNative
+
+> Create simple typescript RN Component
+
+- `strnc`
+
+```tsx
+import { StyleSheet, View } from "react-native";
+
+interface ComponentProps {}
+
+const Component = ({}: ComponentProps) => {
+  return <View></View>;
+};
+
+const styles = StyleSheet.create({});
+
+export default Component;
+```
