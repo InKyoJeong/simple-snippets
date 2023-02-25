@@ -1,0 +1,102 @@
+{
+  "simpleClass": {
+    "key": "simpleClass",
+    "scope": ["js"],
+    "prefix": "sc",
+    "body": [
+      "class ${1:${TM_FILENAME_BASE}} {",
+      "  constructor() {}",
+      "}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};"
+    ],
+    "description": "Create ES6 Class"
+  },
+  "simpleFunctionalComponent": {
+    "key": "simpleFunctionalComponent",
+    "scope": ["js", "jsx"],
+    "prefix": "sfc",
+    "body": [
+      "function ${1:${TM_FILENAME_BASE}}() {",
+      "  return (",
+      "    <div></div>",
+      "  )",
+      "}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};"
+    ],
+    "description": "Create react functional component"
+  },
+  "simpleArrowFunctionComponent": {
+    "key": "simpleArrowFunctionComponent",
+    "scope": ["js", "jsx"],
+    "prefix": "safc",
+    "body": [
+      "const ${1:${TM_FILENAME_BASE}} = () => {",
+      "  return (",
+      "    <div></div>",
+      "  )",
+      "}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};"
+    ],
+    "description": "Create react arrow functional component"
+  },
+  "simpleTypeFunctionalComponent": {
+    "key": "simpleTypeFunctionalComponent",
+    "scope": ["ts", "tsx"],
+    "prefix": "stfc",
+    "body": [
+      "interface ${1:${TM_FILENAME_BASE}}Props {",
+      "}",
+      "",
+      "function ${1:${TM_FILENAME_BASE}}({}: ${1:${TM_FILENAME_BASE}}Props) {",
+      "  return (",
+      "    <div></div>",
+      "  )",
+      "}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};"
+    ],
+    "description": "Create react typescript functional component with interface"
+  },
+  "simpleTypeArrowFunctionComponent": {
+    "key": "simpleTypeArrowFunctionComponent",
+    "scope": ["ts", "tsx"],
+    "prefix": "stafc",
+    "body": [
+      "interface ${1:${TM_FILENAME_BASE}}Props {",
+      "}",
+      "",
+      "const ${1:${TM_FILENAME_BASE}} = ({}: ${1:${TM_FILENAME_BASE}}Props) => {",
+      "  return (",
+      "    <div></div>",
+      "  )",
+      "}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};"
+    ],
+    "description": "Create react typescript arrow functiona component with interface"
+  },
+  "simpleTypeReactNativeComponent": {
+    "key": "simpleTypeReactNativeComponent",
+    "scope": ["ts", "tsx"],
+    "prefix": "strnc",
+    "body": [
+      "import {StyleSheet, View} from 'react-native';",
+      "",
+      "interface ${1:${TM_FILENAME_BASE}}Props {",
+      "}",
+      "",
+      "const ${1:${TM_FILENAME_BASE}} = ({}: ${1:${TM_FILENAME_BASE}}Props) => {",
+      "  return (",
+      "    <View></View>",
+      "  )",
+      "}",
+      "",
+      "const styles = StyleSheet.create({});",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};"
+    ]
+  }
+}

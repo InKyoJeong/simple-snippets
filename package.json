@@ -32,11 +32,11 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./src/snippets/react-js.json"
+        "path": "./src/snippets/js.json"
       },
       {
         "language": "javascript",
-        "path": "./src/snippets/js.json"
+        "path": "./src/snippets/react-js.json"
       },
       {
         "language": "javascriptreact",
