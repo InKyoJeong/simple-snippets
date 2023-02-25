@@ -32,23 +32,19 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./src/snippets/js.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./src/snippets/react-js.json"
+        "path": "./src/snippets.json"
       },
       {
         "language": "javascriptreact",
-        "path": "./src/snippets/react-js.json"
+        "path": "./src/snippets.json"
       },
       {
         "language": "typescript",
-        "path": "./src/snippets/react-ts.json"
+        "path": "./src/snippets.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./src/snippets/react-ts.json"
+        "path": "./src/snippets.json"
       }
     ]
   },
