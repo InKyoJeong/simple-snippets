@@ -1,6 +1,5 @@
 {
   "simpleClass": {
-    "key": "simpleClass",
     "scope": ["js"],
     "prefix": "sc",
     "body": [
@@ -13,7 +12,6 @@
     "description": "Create ES6 Class"
   },
   "simpleFunctionalComponent": {
-    "key": "simpleFunctionalComponent",
     "scope": ["js", "jsx"],
     "prefix": "sfc",
     "body": [
@@ -28,7 +26,6 @@
     "description": "Create react functional component"
   },
   "simpleArrowFunctionComponent": {
-    "key": "simpleArrowFunctionComponent",
     "scope": ["js", "jsx"],
     "prefix": "safc",
     "body": [
@@ -43,7 +40,6 @@
     "description": "Create react arrow functional component"
   },
   "simpleTypeFunctionalComponent": {
-    "key": "simpleTypeFunctionalComponent",
     "scope": ["ts", "tsx"],
     "prefix": "stfc",
     "body": [
@@ -61,7 +57,6 @@
     "description": "Create react typescript functional component with interface"
   },
   "simpleTypeArrowFunctionComponent": {
-    "key": "simpleTypeArrowFunctionComponent",
     "scope": ["ts", "tsx"],
     "prefix": "stafc",
     "body": [
@@ -79,7 +74,6 @@
     "description": "Create react typescript arrow functiona component with interface"
   },
   "simpleTypeReactNativeComponent": {
-    "key": "simpleTypeReactNativeComponent",
     "scope": ["ts", "tsx"],
     "prefix": "strnc",
     "body": [

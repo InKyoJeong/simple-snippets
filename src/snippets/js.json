@@ -1,6 +1,5 @@
 {
   "simpleClass": {
-    "key": "simpleClass",
     "scope": ["js"],
     "prefix": "sc",
     "body": [
