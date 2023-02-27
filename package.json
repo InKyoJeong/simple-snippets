@@ -23,12 +23,6 @@
   ],
   "main": "./dist/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "simple-snippets.helloWorld",
-        "title": "Hello World"
-      }
-    ],
     "snippets": [
       {
         "language": "javascript",
