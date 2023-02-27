@@ -1,7 +1,8 @@
-import { readdir, writeFileSync } from "fs";
+import { readdir, writeFileSync, unlinkSync, existsSync } from "fs";
 
 const dir = `${__dirname}/snippets/`;
 const data = {};
+const targetFile = "./snippets.json";
 
 readdir(dir, (err, files) => {
   return new Promise((resolve, reject) => {
@@ -15,6 +16,9 @@ readdir(dir, (err, files) => {
     });
     resolve(data);
   }).then((data) => {
-    writeFileSync("./snippets.json", JSON.stringify(data));
+    if (existsSync(targetFile)) {
+      unlinkSync(targetFile);
+    }
+    writeFileSync(targetFile, JSON.stringify(data));
   });
 });
