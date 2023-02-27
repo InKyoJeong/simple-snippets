@@ -1,6 +1,5 @@
 {
   "simpleTypeFunctionalComponent": {
-    "scope": ["ts", "tsx"],
     "prefix": "stfc",
     "body": [
       "interface ${1:${TM_FILENAME_BASE}}Props {",
@@ -17,7 +16,6 @@
     "description": "Create react typescript functional component with interface"
   },
   "simpleTypeArrowFunctionComponent": {
-    "scope": ["ts", "tsx"],
     "prefix": "stafc",
     "body": [
       "interface ${1:${TM_FILENAME_BASE}}Props {",
@@ -31,10 +29,9 @@
       "",
       "export default ${1:${TM_FILENAME_BASE}};"
     ],
-    "description": "Create react typescript arrow functiona component with interface"
+    "description": "Create react typescript arrow functional component with interface"
   },
   "simpleTypeReactNativeComponent": {
-    "scope": ["ts", "tsx"],
     "prefix": "strnc",
     "body": [
       "import {StyleSheet, View} from 'react-native';",
@@ -51,6 +48,7 @@
       "const styles = StyleSheet.create({});",
       "",
       "export default ${1:${TM_FILENAME_BASE}};"
-    ]
+    ],
+    "description": "Create reactnative component with interface"
   }
 }

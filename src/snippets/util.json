@@ -1,12 +1,10 @@
 {
   "ConsoleLog": {
-    "scope": ["js", "jsx", "ts", "tsx"],
     "prefix": "cl",
     "body": ["console.log($1)"],
     "description": "console.log"
   },
   "ArrowFunction": {
-    "scope": ["js", "jsx", "ts", "tsx"],
     "prefix": "af",
     "body": ["const $1 = ($2) => {$3};"],
     "description": "Arrow Function"

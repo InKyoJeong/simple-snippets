@@ -1,6 +1,5 @@
 {
   "simpleClass": {
-    "scope": ["js"],
     "prefix": "sc",
     "body": [
       "class ${1:${TM_FILENAME_BASE}} {",
