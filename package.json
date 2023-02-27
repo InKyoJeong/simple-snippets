@@ -2,7 +2,7 @@
   "name": "simple-front-snippets",
   "displayName": "simple-front-snippets",
   "description": "Simple snippets for js, react",
-  "version": "1.1.1",
+  "version": "1.1.8",
   "icon": "ingg.png",
   "publisher": "InKyoJeong",
   "categories": [
@@ -15,27 +15,25 @@
   "engines": {
     "vscode": "^1.75.0"
   },
-  "activationEvents": [
-    "onStartupFinished"
-  ],
+  "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
     "snippets": [
       {
         "language": "javascript",
-        "path": "./src/snippets.json"
+        "path": "./snippets/snippets.code-snippets.json"
       },
       {
         "language": "javascriptreact",
-        "path": "./src/snippets.json"
+        "path": "./snippets/snippets.code-snippets.json"
       },
       {
         "language": "typescript",
-        "path": "./src/snippets.json"
+        "path": "./snippets/snippets.code-snippets.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./src/snippets.json"
+        "path": "./snippets/snippets.code-snippets.json"
       }
     ]
   },
@@ -46,9 +44,7 @@
     "package": "webpack --mode production --devtool hidden-source-map",
     "compile-tests": "tsc -p . --outDir out",
     "watch-tests": "tsc -p . -w --outDir out",
-    "pretest": "npm run compile-tests && npm run compile && npm run lint",
-    "lint": "eslint src --ext ts",
-    "test": "node ./out/test/runTest.js"
+    "pretest": "npm run compile-tests && npm run compile && npm run lint"
   },
   "devDependencies": {
     "@types/glob": "^8.0.1",

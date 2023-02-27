@@ -1,8 +1,8 @@
 import { readdir, writeFileSync, unlinkSync, existsSync } from "fs";
 
-const dir = `${__dirname}/snippets/`;
+const dir = `${__dirname}/data/`;
+const targetFile = "../snippets/snippets.code-snippets.json";
 const data = {};
-const targetFile = "./snippets.json";
 
 readdir(dir, (err, files) => {
   return new Promise((resolve, reject) => {
