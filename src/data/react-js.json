@@ -2,7 +2,7 @@
   "simpleFunctionalComponent": {
     "prefix": "sfc",
     "body": [
-      "function ${1:${TM_FILENAME_BASE}}() {",
+      "function ${1:${TM_FILENAME_BASE}}($2) {",
       "  return (",
       "    <div></div>",
       "  )",
@@ -15,7 +15,7 @@
   "simpleArrowFunctionComponent": {
     "prefix": "safc",
     "body": [
-      "const ${1:${TM_FILENAME_BASE}} = () => {",
+      "const ${1:${TM_FILENAME_BASE}} = ($2) => {",
       "  return (",
       "    <div></div>",
       "  )",

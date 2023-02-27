@@ -6,7 +6,6 @@ import webpack from "webpack";
 const extensionConfig: webpack.Configuration = {
   target: "node",
   mode: "none",
-
   entry: "./src/extension.ts",
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -37,4 +36,5 @@ const extensionConfig: webpack.Configuration = {
     level: "log",
   },
 };
-module.exports = [extensionConfig];
+
+export default extensionConfig;

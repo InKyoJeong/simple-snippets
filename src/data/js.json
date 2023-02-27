@@ -3,7 +3,7 @@
     "prefix": "sc",
     "body": [
       "class ${1:${TM_FILENAME_BASE}} {",
-      "  constructor() {}",
+      "  constructor($2) {$3}",
       "}",
       "",
       "export default ${1:${TM_FILENAME_BASE}};"

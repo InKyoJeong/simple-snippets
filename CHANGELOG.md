@@ -2,6 +2,11 @@
 
 All notable changes to the "simple-front-snippets" extension will be documented in this file.
 
+## [1.2.0] - 2023-02-27
+
+- Update Tab Stops
+- Add function utils
+
 ## [1.1.1-1.1.8] - 2023-02-27
 
 - Bug Fixed
