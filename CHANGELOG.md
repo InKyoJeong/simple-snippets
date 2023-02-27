@@ -2,6 +2,10 @@
 
 All notable changes to the "simple-front-snippets" extension will be documented in this file.
 
+## [1.1.0] - 2023-02-27
+
+- Add Utils
+
 ## [1.0.0] - 2023-02-25
 
 - Add simpleTypeReactNativeComponent
