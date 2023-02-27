@@ -2,6 +2,10 @@
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/48676844/221220456-c06a61ba-04d7-478f-8521-43d6664b1fdb.png" width='180px' height='180px' alt="snippet" >
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/visual-studio-marketplace/v/InKyoJeong.simple-front-snippets" />
   <h4 align="center">Simple Front-end snippets for JS, React</h4>
   <br />
 </p>
