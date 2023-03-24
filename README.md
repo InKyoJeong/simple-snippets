@@ -21,7 +21,7 @@
 
 ### Utils
 
-| `cl`  | `console.log()`                  |         **c**onsole.**l**og         |
+| `cl`  | `console.log('$1', $1)`          |         **c**onsole.**l**og         |
 | ----- | :------------------------------- | :---------------------------------: |
 | `nf`  | `function $1 ($2) {$3}`          |       **n**ormal **f**unction       |
 | `af`  | `const $1 = ($2) => {$3};`       |       **a**rrow **f**unction        |
@@ -107,11 +107,31 @@ export default Component;
 
 ### ReactNative
 
-> Create simple typescript RN Component
+> Create simple RN Component (typescript)
 
-- `strnc`
+- `srnfc`
 
 ```tsx
+import React from "react";
+import { StyleSheet, View } from "react-native";
+
+interface ComponentProps {}
+
+function Component({}: ComponentProps) {
+  return <View></View>;
+}
+
+const styles = StyleSheet.create({});
+
+export default Component;
+```
+
+<br>
+
+- `srnafc`
+
+```tsx
+import React from "react";
 import { StyleSheet, View } from "react-native";
 
 interface ComponentProps {}

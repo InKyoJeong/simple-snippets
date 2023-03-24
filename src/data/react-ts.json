@@ -33,9 +33,32 @@
     ],
     "description": "Create react typescript arrow functional component with interface"
   },
-  "simpleTypeReactNativeComponent": {
-    "prefix": "strnc",
+  "simpleReactNativeFunctionalComponent": {
+    "prefix": "srnfc",
     "body": [
+      "import React from 'react';",
+      "import {StyleSheet, View} from 'react-native';",
+      "",
+      "interface ${1:${TM_FILENAME_BASE}}Props {",
+      "$2",
+      "}",
+      "",
+      "function ${1:${TM_FILENAME_BASE}}({$3}: ${1:${TM_FILENAME_BASE}}Props) {",
+      "  return (",
+      "    <View>$4</View>",
+      "  )",
+      "}",
+      "",
+      "const styles = StyleSheet.create({});",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};"
+    ],
+    "description": "Create reactnative functional component with interface"
+  },
+  "simpleReactNativeArrowFunctionComponent": {
+    "prefix": "srnafc",
+    "body": [
+      "import React from 'react';",
       "import {StyleSheet, View} from 'react-native';",
       "",
       "interface ${1:${TM_FILENAME_BASE}}Props {",
@@ -52,6 +75,6 @@
       "",
       "export default ${1:${TM_FILENAME_BASE}};"
     ],
-    "description": "Create reactnative component with interface"
+    "description": "Create reactnative arrow function component with interface"
   }
 }
