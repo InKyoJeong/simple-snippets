@@ -18,5 +18,10 @@
     "prefix": "faf",
     "body": ["const ${1:${TM_FILENAME_BASE}} = ($2) => {$3}"],
     "description": "FileName Arrow Function"
+  },
+  "FileName Function": {
+    "prefix": "fnf",
+    "body": ["function ${1:${TM_FILENAME_BASE}} ($2) {$3}"],
+    "description": "FileName Function"
   }
 }

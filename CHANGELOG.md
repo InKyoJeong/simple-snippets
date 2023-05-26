@@ -2,6 +2,10 @@
 
 All notable changes to the "simple-front-snippets" extension will be documented in this file.
 
+## [1.2.3] - 2023-05-27
+
+- Add filename function utils
+
 ## [1.2.2] - 2023-03-24
 
 - Edit snippets (RN, console.log)
