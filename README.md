@@ -21,10 +21,10 @@
 
 ### Utils
 
-| `cl`  | `console.log('$1', $1)`          |         **c**onsole.**l**og         |
+| `cl`  | `console.log("$1", $1)`          |         **c**onsole.**l**og         |
 | ----- | :------------------------------- | :---------------------------------: |
 | `nf`  | `function $1 ($2) {$3}`          |       **n**ormal **f**unction       |
-| `af`  | `const $1 = ($2) => {$3};`       |       **a**rrow **f**unction        |
+| `af`  | `const $1 = ($2) => {$3}`        |       **a**rrow **f**unction        |
 | `fnf` | `function $fileName ($2) {$3}`   |      **f**ilename **f**unction      |
 | `faf` | `const $fileName = ($2) => {$3}` | **f**ilename **a**rrow **f**unction |
 
