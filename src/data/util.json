@@ -23,5 +23,10 @@
     "prefix": "fnf",
     "body": ["function ${1:${TM_FILENAME_BASE}} ($2) {$3}"],
     "description": "FileName Function"
+  },
+  "Export default Function": {
+    "prefix": "edf",
+    "body": ["export default function ${1:${TM_FILENAME_BASE}} ($2) {$3}"],
+    "description": "Export default Function"
   }
 }

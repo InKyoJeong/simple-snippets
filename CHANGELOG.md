@@ -2,6 +2,10 @@
 
 All notable changes to the "simple-front-snippets" extension will be documented in this file.
 
+## [1.2.4] - 2023-10-23
+
+- Add export default function utils
+
 ## [1.2.3] - 2023-05-27
 
 - Add filename function utils
